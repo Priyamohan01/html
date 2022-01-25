@@ -1,0 +1,13 @@
+ class uberprice{
+    constructor(name,kilometertravelled){
+        this.name=name;
+        this.kilometertravelled=kilometertravelled;
+        
+        
+    }
+    price(){
+        return  this.kilometertravelled * 12
+    }
+}
+var e1= new uberprice ('priya',20);
+console.log(e1.price())
